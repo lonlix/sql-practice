@@ -1,0 +1,7 @@
+CREATE TABLE tasks ( 
+	id INTEGER PRIMARY KEY,
+	name TEXT NOT NULL,
+	deadline TEXT NOT NULL,
+	done BOOLEAN DEFAULT False
+);
+
